@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.041,
+  "time": 0.043,
   "errors": [],
   "tasks": [
     {
@@ -47,13 +47,13 @@
         "scheme": "file",
         "title": "Giro de Leitos e IISL por unidade FHEMIG",
         "stats": {
-          "hash": "33a7ba0a53b8aa9cc55eb2b8aa947fb9",
-          "bytes": 68905,
+          "hash": "f2a8337f9fb78975c63f33bc26d1554a",
+          "bytes": 69619,
           "fields": 5,
-          "rows": 1433
+          "rows": 1448
         }
       },
-      "time": 0.032,
+      "time": 0.034,
       "scope": [
         "hash-count-error",
         "byte-count-error",
