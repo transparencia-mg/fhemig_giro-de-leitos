@@ -22,6 +22,11 @@
             "description": "Siglas das unidades FHEMIG: CSSFA (Casa de Saúde São Francisco de Assis, em Bambuí); CSSFE (Casa de Saúde Santa Fé, em Três Corações); CSSI (Casa de Saúde Santa Izabel, em Betim); CHPB (Centro Hospitalar Psiquiátrico de Barbacena, em Barbacena); HAC (Hospital Alberto Cavalcanti, em Belo Horizonte); HCM (Hospital Cristiano Machado, em Sabará); HEM (Hospital Eduardo de Menezes, em Belo Horizonte); HIJPII (Hospital Infantil João Paulo II, em Belo Horizonte); HJXXIII (Hospital João XXIII, em Belo Horizonte); HJK (Hospital Júlia Kubitschek, em Belo Horizonte); HMAL (Hospital Maria Amélia Lins, em Belo Horizonte); HRAD (Hospital Regional Antônio Dias, em Patos de Minas); HRBJA (Hospital Regional de Barbacena Dr José Américo, em Barbacena); HRJP (Hospital Regional Dr João Penido, em Juiz de Fora); IRS (Instituto Raul Soares, em Belo Horizonte); MOV (Maternidade Odete Valadares, em Belo Horizonte); MGT (MG Transplantes)."
           },
           {
+            "name": "setor_centro_custo",
+            "type": "integer",
+            "description": "Setor hospitalar (Tasy) ou Centro de Custo (SIGH)."
+          },
+          {
             "name": "ano",
             "type": "integer",
             "description": "Ano de referência."
@@ -32,14 +37,39 @@
             "description": "Mês de referência."
           },
           {
-            "name": "setor_centro_custo",
+            "name": "dias_mes",
             "type": "integer",
-            "description": "Setor hospitalar (Tasy) ou Centro de Custo (SIGH)."
+            "description": "Dia do Mês de referência."
+          },
+          {
+            "name": "leitos",
+            "type": "integer",
+            "description": "Leitos disponíveis em determinado período."
+          },
+          {
+            "name": "saidas",
+            "type": "integer",
+            "description": "Saída hospitalar (alta, evasão, desistência, transferência externa ou óbito)."
           },
           {
             "name": "giro_de_leitos",
             "type": "string",
             "description": "Giro de Leitos (relação entre o número de pacientes que saíram do leito (alta/óbitos) e número de leitos disponíveis no mesmo período)."
+          },
+          {
+            "name": "tx_ocupacao",
+            "type": "integer",
+            "description": "Relação entre o número de paciente/dia e o número de leito/dia em um determinado período."
+          },
+          {
+            "name": "tx_desocupacao",
+            "type": "integer",
+            "description": "Relação entre o número de leitos desocupados e o número de leitos/dia."
+          },
+          {
+            "name": "media_permanencia",
+            "type": "string",
+            "description": "Média de permanência hospitalar (tempo médio em dias que os pacientes ficaram internados no hospital)."
           },
           {
             "name": "iisl",
