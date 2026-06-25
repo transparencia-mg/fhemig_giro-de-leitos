@@ -59,12 +59,12 @@
           {
             "name": "tx_ocupacao",
             "type": "integer",
-            "description": "Relação entre o número de paciente/dia e o número de leito/dia em um determinado período."
+            "description": "Relação entre o número de paciente/dia e o número de leito/dia no mesmo período."
           },
           {
             "name": "tx_desocupacao",
             "type": "integer",
-            "description": "Relação entre o número de leitos desocupados e o número de leitos/dia."
+            "description": "Relação entre o número de leitos desocupados e o número de leitos/dia no mesmo período."
           },
           {
             "name": "media_permanencia",
